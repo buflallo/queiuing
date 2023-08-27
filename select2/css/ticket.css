@@ -1,0 +1,33 @@
+body {
+box-sizing: border-box;
+background: white;
+}
+
+
+img{
+    width: 303px;
+    height: 125px;
+}
+.number {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    }
+
+.mercimsg{
+    color: black;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+    
+}
+.carda {
+    width: 303px;
+    height: 280px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
