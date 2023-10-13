@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once('./DBConnection.php');
 if(isset($_GET['id'])){
     $qry = $conn->query("SELECT * FROM `queue_list` where queue_id = '{$_GET['id']}'");
@@ -19,7 +19,7 @@ if(isset($_GET['id'])){
     }
     img{
             width: 303px;
-            height: 125px;
+            height: auto;
     }
     .number {
         color: black;
@@ -50,7 +50,7 @@ if(isset($_GET['id'])){
 </style>
 <div class="container fluid">
     <?php if(isset($_GET['success']) && $_GET['success'] == true): ?>
-        <div class="alert alert-success">Your Queue Number is successfully generated.</div>
+        <div class="alert alert-success">Le ticket a été généré avec succès.</div>
     <?php endif; ?>
     <!-- <div id="outprint">
         <div class="row justify-content-end">
@@ -99,7 +99,7 @@ if(isset($_GET['id'])){
                 }
             }
         </style>
-        <img src="https://imgtr.ee/images/2023/08/04/ab99f1884cf8360f0dfb316c538acd63.png"/>
+        <img src="../select2/Tlogo.png"/>
         <div class="box">
             <div class="number" id="temp">Nº<?php echo $queue ?></div>
             <div class="mercimsg">Merci Pour Votre Visit</div>

@@ -4,7 +4,7 @@
 
             <div class="card col-sm-8 shadow">
                 <div class="card-header">
-                    <h5 class="card-title text-center">Now Serving</h5>
+                    <h5 class="card-title text-center">Patient En Cours</h5>
                 </div>
                 <div class="card-body">
                     <div class="fs-1  my-2 fw-bold text-center"><span id="queue">----</span></div>
@@ -17,10 +17,10 @@
         <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" id="action-field">
             <div class="w-100 row row-cols-sm-2 row-cols-md-2 row-cols-xl-3">
                 <div class="col">
-                    <button id="next_queue" class="btn btn-flat btn-primary rounded-0 btn-lg" style="width: 100%; padding: 1.5rem 1rem;"><i class="fa fa-forward"></i> Next</button>
+                    <button id="next_queue" class="btn btn-flat btn-primary rounded-0 btn-lg" style="width: 100%; padding: 1.5rem 1rem;"><i class="fa fa-forward"></i> Suivant</button>
                 </div>
                 <div class="col">
-                    <button id="notify" class="btn btn-flat btn-secondary rounded-0 btn-lg" style="width: 100%; padding: 1.5rem 1rem;"><i class="fa fa-bullhorn"></i> Notify</button>
+                    <button id="notify" class="btn btn-flat btn-secondary rounded-0 btn-lg" style="width: 100%; padding: 1.5rem 1rem;"><i class="fa fa-bullhorn"></i> Rappel Patient</button>
                 </div>
             </div>
         </div>

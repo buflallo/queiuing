@@ -1,4 +1,4 @@
-<div class="container-fluid py-5">
+﻿<div class="container-fluid py-5">
     <div class="row justify-content-center">
         <div class="col-md-9">
             <div class="card rouded-0 shadow">
@@ -52,7 +52,7 @@ $(function(){
             success:function(resp){
                 if(resp.status == 'success'){
                     // console.log(resp.id)
-                    uni_modal("Your Queue","../get_queue.php?success=true&id="+resp.id)
+                    uni_modal("Création de ticket","../get_queue.php?success=true&id="+resp.id)
                     $('#uni_modal').on('hide.bs.modal',function(e){
                         location.reload()
                     })

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -13,7 +13,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN | Cashier Queuing System</title>
@@ -25,36 +25,42 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <style>
         html, body{
             height:100%;
+		background-color: #e47474
+
         }
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	button {
+		background-color: #4584e5 !important;
+	}
     </style>
 </head>
-<body class="bg-dark bg-gradient">
+<body>
    <div class="h-100 d-flex jsutify-content-center align-items-center">
-       <div class='w-100'>
-        <h3 class="py-5 text-center text-light">Cashier Queuing System</h3>
+       <div class="w-100">
+        <h3 class="py-5 text-center text-light">Healthconnect Gestion De Salle D'attente</h3>
         <div class="card my-3 col-md-4 offset-md-4">
             <div class="card-body">
                 <form action="" id="login-form">
-                    <center><small>Please enter your credentials.</small></center>
-                    <div class="form-group">
-                        <label for="username" class="control-label">Username</label>
-                        <input type="text" id="username" autofocus name="username" class="form-control form-control-sm rounded-0" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password" class="control-label">Password</label>
-                        <input type="password" id="password" name="password" class="form-control form-control-sm rounded-0" required>
-                    </div>
+                    <center><small>Ouvrir les deux pages
+</small>
+</center>
+                    
+                    
                     <div class="form-group d-flex w-100 justify-content-between align-items-center">
-                        <span>
-                        <a href="./queue_registration.php" class="me-1">Home</a>
-                        |
-                        <a href="./cashier" class="ms-1">Cashier</a>
-                        </span>
-                        <button class="btn btn-sm btn-primary rounded-0 my-1">Login</button>
+                        
+                        <button class="btn btn-bg btn-primary rounded-0 my-1">
+    <a href="./monitoring" onclick="window.open('#','_blank');window.open(this.href,'_self');">Affichage Patient</a> 
+</button><button class="btn btn-bg btn-primary rounded-0 my-1">
+    <a href="./cashier" onclick="window.open('#','_blank');window.open(this.href,'_self');">Créateur de tickets</a>
+    </button>
                     </div>
                 </form>
             </div>
         </div>
+       </div>
        </div>
    </div>
 </body>

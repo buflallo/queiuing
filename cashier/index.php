@@ -157,9 +157,7 @@ require_once('./../DBConnection.php');
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient" id="topNavBar">
         <div class="container">
-            <a class="navbar-brand" href="./" >
-            Appel et passation de tiquet
-            </a>
+            <a class="navbar-brand" href="#" >Rappel Patient et Nouveau Ticket</a>
         </div>
     </nav>
     <div class="container py-4">

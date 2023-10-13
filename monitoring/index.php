@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 
 require_once('./../DBConnection.php');
@@ -27,7 +27,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     <style>
         img{
-            width: 100%;
+            width: 300px;
             height: auto;
         }
         .number {
@@ -184,16 +184,16 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     </style>
 </head>
 <body>
-    <nav class="nav navbar navbar-light py-2 text-light fs-4 fw-bold" style="background-color: #004aad;">
+    <nav class="nav navbar navbar-light py-2 text-light fs-1 fw-bold" style="background-color: #004aad;">
         <div id="frenchMarquee" class="marquee-container">
             <div class="marqueef">
-                <span >Bienvenue chez le Cabinet Dentaire Soufiane ! Nous vous remercions pour votre patience. Votre sourire est notre priorité. 🦷😄</span>
+                <span >Bienvenue chez le Cabinet Dentaire Soufiane ! Nous vous remercions pour votre patience. Votre sourire est notre priorité.</span>
             </div>
         </div>
 
         <div id="arabicMarquee" class="marquee-container">
             <div class="marqueea" >
-                <span dir="rtl">🌟 مرحبًا بكم في عيادة الدكتور سفيان لطب الأسنان! نشكركم على صبركم. ابتسامتكم هي أولويتنا. 🦷😄</span>
+                <span dir="rtl">مرحبًا بكم في عيادة الدكتور سفيان لطب الأسنان! نشكركم على صبركم. ابتسامتكم هي أولويتنا.</span>
             </div>
         </div>
     </nav>
